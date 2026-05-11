@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "node server.js"
-  },
+  "start": "node server.js",
+  "test": "jest",
+  "lint": "eslint ."
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jharifAparicio/github-actions-ci-demo.git"
@@ -23,6 +24,8 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
+    "eslint": "^10.3.0",
+    "globals": "^17.6.0",
     "jest": "^30.4.2",
     "supertest": "^7.2.2"
   }
